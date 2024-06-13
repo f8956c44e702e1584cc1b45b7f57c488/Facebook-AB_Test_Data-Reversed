@@ -24,7 +24,7 @@ comet_key: "__comet_req"
 
 Facebook's login request data contains the paramater 'ab_test_data,' this repo contains the algo's used by Facebook to encode it.
 
-# ab_test_data explained
+# AB_Test_data Explained
 
 Facebook's client constantly monitors for keypresses, everytime a user presses a key, that key's keycode is stored in an array, along with the length of time they key is held. This array is then encoded into their complete 'ab_test_data,' which must be URL encoded before it's sent to Facebook's private API. The password converted into the encoded ab_test_data value must be identical to the encrypted password in the encpass param of the login request data. Facebook crossreferences these values, if they do not match, Facebook rejects the request. 
 
@@ -41,6 +41,10 @@ WebCrack:
 ChatGPT: 
 - GPT4o is very good at analyzing raw client-side JS code, and tracing functions to their origional source. 
 - Great at finding logic for encoding values.
+
+# Facebook Login Endpoint
+
+POST `https://www.facebook.com/login/device-based/regular/login/`
 
 # Contact
 
