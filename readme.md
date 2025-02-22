@@ -48,4 +48,4 @@ POST `https://www.facebook.com/login/device-based/regular/login/`
 
 # Contact
 
-Telegram - @reversewasm
+Contact me on [Telegram](https://t.me/f8956c44e702e1584cc1b45b7f57c488)
